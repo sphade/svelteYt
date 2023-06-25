@@ -2,9 +2,9 @@
 </script>
 
 <header
-  class=" bg-secondary-500 flex h-[70px] px-7 sticky top-0 left-0 z-50 justify-between items-center"
+  class=" bg-secondary-500 flex h-[70px]  px-2 md:px-7 sticky top-0 left-0 z-50 justify-between items-center"
 >
-  <div class="flex items-center gap-7">
+  <div class="flex items-center gap-3 md:gap-10  ">
     <img src="/icons/bugger.svg" loading="eager" alt="bugger icon" />
     <a href="/">
       <img src="/icons/Rumble.svg" loading="eager" alt="rumble logo" />
@@ -23,7 +23,7 @@
     </button>
   </form>
 
-  <div class="flex items-center gap-[14px]">
+  <div class="flex items-center gap-2 md:gap-[14px]">
     <button class=" md:hidden p-2 w-[35px] h-[35px]">
       <img src="/icons/rumbleSearch.svg" loading="eager" alt="search-icon" />
     </button>

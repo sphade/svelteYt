@@ -14,7 +14,7 @@
 
 @layer components {
   .btn {
-    @apply capitalize text-sm text-white rounded-[140px] font-semibold bg-transparent transition-colors py-[7px] px-[9.8px] sm:py-[11.9px] sm:px-[18px] hover:bg-[#1A2A37];
+    @apply capitalize  text-xs sm:text-sm text-white rounded-[140px] font-medium sm:font-semibold bg-transparent transition-colors py-[3px] px-[5px] sm:py-[11.9px] sm:px-[18px] hover:bg-[#1A2A37];
   }
   .btn__outlined {
     @apply outline outline-2  outline-brand;
