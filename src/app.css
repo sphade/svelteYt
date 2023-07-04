@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply scroll-smooth font-normal text-primary bg-secondary-100 font-sans  ;
+    @apply scroll-smooth font-normal text-[#d6e0ea] bg-[#10212F] font-sans;
   }
 }
 /* html{

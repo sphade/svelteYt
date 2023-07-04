@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.5.0
+  '@tanstack/svelte-query': ^4.29.17
   '@typescript-eslint/eslint-plugin': ^5.45.0
   '@typescript-eslint/parser': ^5.45.0
   autoprefixer: ^10.4.14
@@ -15,6 +16,9 @@ specifiers:
   tslib: ^2.4.1
   typescript: ^5.0.0
   vite: ^4.3.0
+
+dependencies:
+  '@tanstack/svelte-query': 4.29.17_svelte@3.59.1
 
 devDependencies:
   '@sveltejs/adapter-auto': 2.1.0_@sveltejs+kit@1.18.0
@@ -408,6 +412,19 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@tanstack/query-core/4.29.17:
+    resolution: {integrity: sha512-iDbO8yZOpm1lqgq6L8mpxGbKaoiyZSjthxEB3WGU7mNPYss9q4H3Q67+e2xXGwkemEVmtEX/WwvtFitrvVU8TA==}
+    dev: false
+
+  /@tanstack/svelte-query/4.29.17_svelte@3.59.1:
+    resolution: {integrity: sha512-/4m5IAf1EYmKSk89noe4cTQTsn5kysRDp/A/ln8I2KBmmBH14EhqbKlVwy/6nC13y32SrUF8LOM+S2CvKY7MsA==}
+    peerDependencies:
+      svelte: ^3.54.0
+    dependencies:
+      '@tanstack/query-core': 4.29.17
+      svelte: 3.59.1
+    dev: false
 
   /@types/cookie/0.5.1:
     resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
@@ -1884,7 +1901,6 @@ packages:
   /svelte/3.59.1:
     resolution: {integrity: sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==}
     engines: {node: '>= 8'}
-    dev: true
 
   /tailwindcss/3.3.2:
     resolution: {integrity: sha512-9jPkMiIBXvPc2KywkraqsUfbfj+dHDb+JPWtSJa9MLFdrPyazI7q6WX2sUrm7R9eVR7qqv3Pas7EvQFzxKnI6w==}
